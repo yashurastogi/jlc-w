@@ -1,0 +1,18 @@
+<html>
+    <p id="Name">This is my name</p>
+    
+    <script>
+        //localStorage.setItem("last name", "Smith")
+    //document.getElementById("Name").innerHTML="Yashu";
+
+    if (sessionStorage.clickcount) {
+    sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+} else {
+    sessionStorage.clickcount = 1;
+}
+document.get = "You have clicked the button " +
+sessionStorage.clickcount + " time(s) in this session.";
+
+    </script>
+
+</html>
