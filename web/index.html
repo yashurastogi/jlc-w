@@ -9,26 +9,26 @@
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+           
         }
 
         .Header {
             height: 100px;
             box-sizing: inherit;
             position: relative;
-            background-color: powderblue;
+            background-color:#f1f1f1;
         }
 
         .Middle {
-            height: 120px;
-            box-sizing: inherit;
-            position: relative;
-            background-color: rgb(226, 230, 176);
+            height: 300px;
+            
+           
+            
         }
 
         .Footer {
             height: 100px;
-            background-color: rgb(230, 176, 207);
+            background-color: #f1f1f1;
             position: relative;
         }
 
@@ -68,8 +68,31 @@
 }
 
         
+        .sidenav {
+    
+    width: 200px;
+  
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:black;
+    overflow-x: hidden;
+}
 
-        li {}
+
+/* Side navigation links */
+.sidenav a {
+    color: rgb(180, 25, 25);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
     </style>
 </head>
 
@@ -89,7 +112,7 @@
         <span </div>
             <div class="Middle">
 
-                <span class="font">
+                <span class="sidenav">
                     <ul>
                         <li>
                             <a href="https://www.w3schools.com/html/html_lists.asp">This is HTML tutorial link</a>

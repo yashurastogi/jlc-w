@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.wrapper
+{
+    
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+#topleft
+{
+ display: inline-block;
+}
+#topright
+{
+float: right;
+}
+#secondtopright
+{
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+
+}
+#secondtopleft
+{
+    display: inline-block; 
+   
+}
